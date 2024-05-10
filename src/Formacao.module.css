@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.experiencia{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 3rem;
+    padding: 3rem 5rem;
+}
+.sessao{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    border: 1px solid;
+    height: 9em;
+    width: 9rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maiin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons:hover {
+    color:rgba(31, 215, 232, 0.873);
+    box-shadow: 0px 0px 30px 1px  rgba(2, 29, 78, 0.681);
+    transform: translate(6px, -6px);
+   }
